@@ -844,7 +844,7 @@ class MyApp extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => Saidul(),
+                          builder: (context) => Afia(),
                         ),
                       );
                     },
@@ -911,7 +911,7 @@ class MyApp extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => Saidul(),
+                          builder: (context) =>MoiNul(),
                         ),
                       );
                     },
