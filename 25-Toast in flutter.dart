@@ -30,9 +30,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State< HomePage> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
         body: Center(
           child: RaisedButton(
             onPressed: () {
@@ -47,7 +45,6 @@ class _HomePageState extends State< HomePage> {
             },
             child: Text("Click"),
           ),
-        ),
       ),
     );
   }
